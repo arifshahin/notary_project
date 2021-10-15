@@ -1,0 +1,55 @@
+/*common css start*/
+body{
+margin: 0;
+padding: 0;	
+font-family: sans-serif;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	border: 1px solid black;
+	padding: 15px 0;
+
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	margin-top: 7px;
+	float: left;
+	width: 10%;
+}
+.logo img{
+width: 100%;
+}
+.menu {
+	margin-top: 2px;
+	float: right;
+	width: 75%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: black;
+	text-decoration: none;
+	padding: 0px 20px;
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li:first-child a{
+	color: red;
+}
+
+/*header end*/
